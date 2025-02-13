@@ -11,9 +11,15 @@ const Header = () => {
 	return (
 		<header className={style.header}>
 			<div className="container">
-				<Link href="/">
-					<Image src={logo} alt="Alpha-X" width={48} height={48} />
-					Header
+				<Link href="/" className={style.logo}>
+					<Image
+						className={style.logoImg}
+						src={logo}
+						alt="Alpha-X"
+						width={48}
+						height={48}
+					/>
+					<span className={style.logoText}>Header</span>
 				</Link>
 			</div>
 		</header>

@@ -1,0 +1,16 @@
+@import "core/styles/_assets.scss";
+
+.section {
+	padding: 48px 0 64px;
+}
+
+.head {
+	margin-bottom: 48px;
+}
+
+.body {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+}

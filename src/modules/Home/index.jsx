@@ -6,7 +6,10 @@ import { useEffect } from "react";
 // -- states
 import useStateHeader from "core/states/header";
 
-const Home = (props) => {
+// -- components
+import ExampleSection from "@components/Example/ExampleSection";
+
+const Home = () => {
 	// numbers
 
 	// set menu
@@ -18,9 +21,7 @@ const Home = (props) => {
 
 	return (
 		<>
-			<div className="container">
-				<h1>Hello World</h1>
-			</div>
+			<ExampleSection />
 		</>
 	);
 };

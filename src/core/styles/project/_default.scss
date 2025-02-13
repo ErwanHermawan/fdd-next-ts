@@ -5,8 +5,8 @@
 body {
 	font-family: ff(main);
 	font-weight: fw(regular);
-	background-color: color(primary);
-	color: color(white);
+	background-color: color(white);
+	color: color(black);
 	@include font-size(body);
 	&.rm-scroll {
 		overflow: hidden;

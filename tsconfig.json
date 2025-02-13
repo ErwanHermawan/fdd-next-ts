@@ -45,7 +45,8 @@
 		"src/core/configs/schema/index.ts",
 		"src/core/utils/schema/dynamic/index.js",
 		"src/components/Elements/Button/index.tsx",
-		"src/components/Header/index.jsx"
+		"src/components/Header/index.tsx",
+		"src/infrastructure/api/httpRequest/index.js"
 	],
 	"exclude": ["node_modules"]
 }
