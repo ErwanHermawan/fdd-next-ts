@@ -13,7 +13,13 @@ const ExampleItem = (props: IExampleItem) => {
 	return (
 		<div className={style.item}>
 			<div className={style.image}>
-				<Image className={style.imageEl} src={image} alt={title} />
+				<Image
+					className={style.imageEl}
+					src={image}
+					alt={title}
+					width={320}
+					height={320}
+				/>
 			</div>
 			<div className={style.text}>
 				<h4 className={style.title}>{title}</h4>

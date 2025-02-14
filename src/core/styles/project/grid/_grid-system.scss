@@ -23,7 +23,7 @@
 }
 
 .main {
-	padding-top: 144px;
+	padding: 112px 0 112px;
 	transition: all 0.3s ease;
 	.header-on-scroll & {
 		padding-top: 96px;
@@ -34,13 +34,10 @@
 			padding-top: 64px;
 		}
 	}
-	@include large {
-		padding-top: 112px;
-	}
 	@include medium {
-		padding-top: 72px;
+		padding-top: 72px 0 72px;
 	}
 	@include small {
-		padding-top: 64px;
+		padding-top: 64px 0 64px;
 	}
 }

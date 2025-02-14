@@ -1,27 +1,36 @@
-import image1 from "core/assets/img/dummy/1.jpeg";
-import image2 from "core/assets/img/dummy/2.jpeg";
-import image3 from "core/assets/img/dummy/3.jpeg";
+interface Item {
+	image: string;
+	title: string;
+	description: string;
+}
 
-const data = {
+interface Data {
+	title: string;
+	subtitle: string;
+	description: string;
+	item: Item[];
+}
+
+const data: Data = {
 	title: "Next.js Template FDD Project Website by Bilik Dev",
 	subtitle: "Example Component",
 	description:
 		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus obcaecati voluptatem consectetur sequi quisquam exercitationem. Facere ut ex in mollitia.",
 	item: [
 		{
-			image: image1,
+			image: "/dummy/1.jpeg",
 			title: "Lorem ipsum dolor sit amet.",
 			description:
 				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus obcaecati voluptatem consectetur sequi quisquam exercitationem. Facere ut ex in mollitia.",
 		},
 		{
-			image: image2,
+			image: "/dummy/2.jpeg",
 			title: "Lorem ipsum dolor sit amet.",
 			description:
 				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus obcaecati voluptatem consectetur sequi quisquam exercitationem. Facere ut ex in mollitia.",
 		},
 		{
-			image: image3,
+			image: "/dummy/3.jpeg",
 			title: "Lorem ipsum dolor sit amet.",
 			description:
 				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus obcaecati voluptatem consectetur sequi quisquam exercitationem. Facere ut ex in mollitia.",
